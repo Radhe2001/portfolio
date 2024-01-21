@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.about-dec-main-div{
+    width:50%
+}
+
+
+
+.title-desc-about{
+    color: #0B60B0;
+}
+
+.full-desc-about{
+    color:F3D7CA;
+}
+
+b{
+    color:#80BCBD;
+}
+
+.about-head-title{
+    font-family: "Audiowide";
+}
+.about-head-title{
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-dec-main-div:hover .about-head-title{
+    transform: translateX(30%);
+}
+.about-dec-main-div:hover .btn-more{
+    animation:animateBtn 1s linear infinite alternate;
+}
+
+@keyframes animateBtn{
+    0%{
+        transform: rotate(350deg);
+    }
+    100%{
+        transform: rotate(390deg);
+    }
+}
+
+.btn-more:hover{
+    background-color: #FBF9F1;
+    border-color: #DC84F3;
+    color: #092635;
+}
+
+.self-desc-div{
+    width:40%;
+}
+
+.rest-div{
+    width:40%;
+}
+
+.biography-div-about{
+    color: #711DB0;
+    transform: translateX(30%);
+}
+
+.text-head{
+    color: #711DB0;
+}
+
+.text-ans{
+    color: #9EC8B9;
+}
+
+hr{
+    border-color: #5C8374;
+    border-width: 1px;
+}
+
+.glass{
+    background: rgba(241, 234, 234, 0.646);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 4px 2px 20px rgba(171, 177, 194, 0.388);
+}
+
+.know-head{
+    color: #450575;
+}
+
+.know-body{
+    color: #141616;
+}

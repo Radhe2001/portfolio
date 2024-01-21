@@ -1,0 +1,10 @@
+.parent-nav{
+        background: rgba(120, 89, 89, 0.258);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(50px);
+        -webkit-backdrop-filter: blur(20px);
+}
+
+.nav-div{
+    width:80%;
+}
