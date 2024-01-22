@@ -47,7 +47,8 @@ const About = () => {
         </div>
       </div>
       {visible ? (
-        <div className="flex mt-16 gap-24 place-content-center place-items-center">
+        <div className="">
+          <div className="flex mt-16 gap-24 place-content-center place-items-center">
           <div className="self-desc-div text-white">
             <div className="">
               <div className="biography-div-about text-4xl font-semibold mb-12">
@@ -114,6 +115,62 @@ const About = () => {
             </div>
           </div>
         </div>
+        <div className="flex place-content-center gap-4 mt-16 mb-12 text-white">
+          <div className="div-left-about">
+            <div className="flex place-content-center mb-6 text-2xl font-semibold">Courses</div>
+            <div className="flex place-content-center">
+              <div className=""> <div className="edu-detail-div-glass mb-8 rounded-t-2xl py-3 px-6">
+              <div className="edu-detail-div-glass-head text-xl font-semibold mb-1">Web Development Bootcamp</div>
+              <div className="edu-detail-div-glass-body text-xl mb-4">From Udemy</div>
+              <div className="flex place-content-center">
+                <button className="edu-detail-div-glass-time text-lg font-semibold px-4 py-1 rounded-lg">02 Months</button>
+              </div>
+            </div>
+            <div className="edu-detail-div-glass mb-8 py-3 px-6">
+              <div className="edu-detail-div-glass-head text-xl font-semibold mb-1">Django Development Masterclass</div>
+              <div className="edu-detail-div-glass-body text-xl mb-4">From Udemy</div>
+              <div className="flex place-content-center">
+                <button className="edu-detail-div-glass-time text-lg font-semibold px-4 py-1 rounded-lg">02 Months</button>
+              </div>
+            </div>
+            <div className="edu-detail-div-glass mb-8 rounded-b-2xl py-3 px-6">
+              <div className="edu-detail-div-glass-head text-xl font-semibold mb-1">Java with DSA & System Design</div>
+              <div className="edu-detail-div-glass-body text-xl mb-4">From PW Skills</div>
+              <div className="flex place-content-center">
+                <button className="edu-detail-div-glass-time text-lg font-semibold px-4 py-1 rounded-lg">06 Months</button>
+              </div>
+            </div></div>
+            </div>
+          </div>
+          <div className="div-right-about">
+            <div className="flex place-content-center mb-6 text-2xl font-semibold">Academic Education</div>
+            <div className="flex place-content-center">
+              <div className=""> <div className="edu-detail-div-glass mb-8 rounded-t-2xl py-3 px-6">
+              <div className="edu-detail-div-glass-head text-xl font-semibold mb-1">Master's of Science in IT</div>
+              <div className="edu-detail-div-glass-body text-xl mb-4">From Lovely Professional University, Punjab</div>
+              <div className="flex place-content-center">
+                <button className="edu-detail-div-glass-time text-lg font-semibold px-4 py-1 rounded-lg">02 Years</button>
+              </div> 
+            </div>
+            <div className="edu-detail-div-glass mb-8 py-3 px-6">
+              <div className="edu-detail-div-glass-head text-xl font-semibold mb-1">Bachelor's of Arts (History hons.)</div>
+              <div className="edu-detail-div-glass-body text-xl mb-4">From Anugrah Narayan College, Patna</div>
+              <div className="flex place-content-center">
+                <button className="edu-detail-div-glass-time text-lg font-semibold px-4 py-1 rounded-lg">03 Years</button>
+              </div>
+            </div>
+            <div className="edu-detail-div-glass mb-8 rounded-b-2xl py-3 px-6">
+              <div className="edu-detail-div-glass-head text-xl font-semibold mb-1">Higher Secondary</div>
+              <div className="edu-detail-div-glass-body text-xl mb-4">From Xavier's English School, Konnagar, WB</div>
+              <div className="flex place-content-center">
+                <button className="edu-detail-div-glass-time text-lg font-semibold px-4 py-1 rounded-lg">02 Years</button>
+              </div>
+            </div></div>
+            </div>
+          </div>
+        </div>
+        </div>
+        
       ) : null}
     </>
   );

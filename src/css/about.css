@@ -75,8 +75,6 @@ hr{
 
 .glass{
     background: rgba(241, 234, 234, 0.646);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
     box-shadow: 4px 2px 20px rgba(171, 177, 194, 0.388);
 }
 
@@ -86,4 +84,25 @@ hr{
 
 .know-body{
     color: #141616;
+}
+
+.div-left-about , .div-right-about {
+    width:40%;
+}
+
+.edu-detail-div-glass{
+    background: rgba(63, 57, 57, 0.646);
+    box-shadow: 4px 2px 12px rgba(168, 169, 170, 0.388);
+}
+
+
+.edu-detail-div-glass-head{
+    color: #711DB0;
+}
+.edu-detail-div-glass-body{
+    color: #9EC8B9;
+}
+.edu-detail-div-glass-time{
+    background-color: #604c6fc8;
+    color: #9EC8B9;
 }
