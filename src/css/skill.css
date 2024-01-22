@@ -1,0 +1,11 @@
+.parent-skill-div{
+    width:100%;
+    background: rgba(42, 15, 15, 0.392);
+    box-shadow: 4px 4px 12px rgba(168, 169, 170, 0.388);
+}
+
+.child-skill-div{
+    width:95%;
+    background: rgba(42, 15, 15, 0.151);
+    box-shadow: 4px 4px 12px rgba(48, 58, 68, 0.462);
+}
