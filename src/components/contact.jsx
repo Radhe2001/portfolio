@@ -1,6 +1,9 @@
-const Contact = ()=>{
-    return <><div className="text-white">This is contact page</div></>
-}
-
+const Contact = () => {
+  return (
+    <>
+      <div>contact</div>
+    </>
+  );
+};
 
 export default Contact;

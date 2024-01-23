@@ -1,0 +1,40 @@
+.chatgpt-image-project{
+    width: 40%;
+    height: 300px;
+}
+
+.chatgpt-image-project-desc{
+    width:52%;
+}
+
+.title{
+    color: #711DB0;
+}
+
+.body{
+    color: #9EC8B9;
+}
+
+.btn-github{
+    background-color:#191919;
+    color: #96E9C6;
+}
+.btn-github:hover{
+    background-color:#561C24;
+    color: #7e71b3;
+}
+
+.btn-live{
+    background-color: #40A2D8;
+    color: #030637;
+}
+.btn-live:hover{
+    background-color: #D4E7C5;
+    color: #561C24;
+}
+
+
+.nature-image-project{
+    height: 300px;
+    width:35%;
+}
