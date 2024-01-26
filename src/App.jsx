@@ -6,7 +6,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      {/* <div className="text text-left mr-auto"></div> */}
       <div className="h-screen w-full ">
         <BrowserRouter>
           <header className="fixed w-full">

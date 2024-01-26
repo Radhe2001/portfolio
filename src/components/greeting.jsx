@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import bg_img from "../assets/image_background.jpg";
 import profile from "../assets/mypic.png";
 import "../css/greeting.css";
-import Contact from "./contact";
+import { Link } from "react-router-dom";
 const Greeting = () => {
   const [count, setCount] = useState(0);
   const [increment, setIncrement] = useState(true);
@@ -38,12 +37,12 @@ const Greeting = () => {
             Express.js, React, Node.js, and Django.
           </div>
           <div className="flex  mt-8">
-            <div className="btn1 px-4 py-2 font-bold rounded-xl text-xl mr-3">
+            <Link  to={"/contact"} className="btn1 px-4 py-2 font-bold rounded-xl text-xl mr-3">
               Contact Me
-            </div>
-            <div className="btn2 px-4 py-2 font-bold rounded-xl text-xl ml-3">
+            </Link>
+            <Link to={"/about"} className="btn2 px-4 py-2 font-bold rounded-xl text-xl ml-3">
               Know More
-            </div>
+            </Link>
           </div>
         </div>
         <div
