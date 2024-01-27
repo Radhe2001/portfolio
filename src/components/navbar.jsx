@@ -31,7 +31,7 @@ const Navbar = () => {
             <a href="https://github.com/Radhe2001">
               Github
             </a>
-            <a className="ml-4 bg-slate-800 px-5 py-1 rounded-3xl cursor-pointer" href="https://drive.google.com/file/d/1-6noZJDdX_J1htY2--9uw2e7PXKINE_r/view?usp=sharing">
+            <a className="ml-4 bg-slate-800 px-5 py-1 rounded-3xl cursor-pointer" href="https://drive.google.com/file/d/1CZiAqMCulHi3-OkG27SbOln_5QuWUF-s/view?usp=sharing">
               Download CV
             </a>
           </div>
