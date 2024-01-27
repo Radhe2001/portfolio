@@ -27,7 +27,7 @@ const Greeting = () => {
   return (
     <>
       <div className="w-full mt-16 mb-16 flex place-items-center">
-        <div className="">
+        <div className="w-3/5 ">
           <div className="hello-text text-4xl mb-2">Hello, I am</div>
           <div className="name-div text-6xl mb-2">Radheshyam Jha</div>
           <div className="text text-5xl mb-6"></div>
@@ -46,7 +46,7 @@ const Greeting = () => {
           </div>
         </div>
         <div
-          className="img-div ml-auto mr-12 border-2 border-cyan-900 rounded-full h-96 w-96 bg-cover "
+          className="img-div ml-auto mr-12 border-2 w-2/6 h-96 border-cyan-900 rounded-full  bg-cover "
           style={{ backgroundImage: `url(${profile})` }}
         ></div>
       </div>
