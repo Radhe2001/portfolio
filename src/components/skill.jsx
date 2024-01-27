@@ -15,13 +15,17 @@ import mongodb from "../assets/mongo_logo.svg"
 import mysql from "../assets/mysql_logo.png"
 import postgresql from "../assets/postgresql.png"
 import git from "../assets/git_logo.png"
+import awsec2 from "../assets/awsec2_logo.png"
+import docker from "../assets/docker_logo.png"
+
+
 const Skill = () => {
     return (
     <>
         <div className="mt-12 flex place-content-center text-4xl font-bold text-blue-800">My Skills</div>
         <div className="flex  place-content-center mb-12">
             <div className="parent-skill-div rounded-2xl mt-8 flex place-content-center">
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 p-6 w-full gap-5">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 p-6 w-full gap-5">
                     <div className="child-skill-div rounded-2xl">
                         <div className=" flex place-content-center pt-6 pb-4">
                             <img src={html_logo} className="w-5/6 h-auto"/>
@@ -117,6 +121,18 @@ const Skill = () => {
                             <img src={git} className="w-5/6 h-auto"/>
                         </div>
                         <div className=" flex place-content-center text-cyan-400 text-xl font-semibold pb-3">Git</div>
+                    </div>
+                    <div className="child-skill-div rounded-2xl">
+                        <div className=" flex place-content-center pt-6 pb-4">
+                            <img src={awsec2} className="w-5/6 h-auto"/>
+                        </div>
+                        <div className=" flex place-content-center text-cyan-400 text-xl font-semibold pb-3">AWS EC2</div>
+                    </div>
+                    <div className="child-skill-div rounded-2xl">
+                        <div className=" flex place-content-center pt-6 pb-4">
+                            <img src={docker} className="w-5/6 h-auto"/>
+                        </div>
+                        <div className=" flex place-content-center text-cyan-400 text-xl font-semibold pb-3">Docker</div>
                     </div>
 
                 </div>
